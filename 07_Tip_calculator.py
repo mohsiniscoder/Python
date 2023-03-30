@@ -1,7 +1,0 @@
-print("Welcome to the Tip Calculator")
-bill = float((input("Enter the Bill = $")))
-percentage_of_tip = int(input("Enter the percentage of tip:"))
-people = int(input("How many people should pay the Bill:"))
-tip = (bill/people) + ((bill/people)*(percentage_of_tip/100))
-print(f"Each Person should pay ${round(tip)}   ")
-print("Thanks for choosing Tip calculator")
