@@ -1,0 +1,23 @@
+name1 = input("Enter your name:")
+name2 = input("Enter another name:")
+name1 = name1.lower()
+name2 = name2.lower()
+T = name1.count("t") + name2.count("t")
+R = name1.count("r") + name2.count("r")
+U = name1.count("u") + name2.count("u")
+E = name1.count("e") + name2.count("e")
+true = str(T+R+U+E)
+print(true)
+L = name1.count("l") + name2.count("l")
+O = name1.count("o") + name2.count("o")
+V = name1.count("v") + name2.count("v")
+E = name1.count("e") + name2.count("e")
+love = str(L+O+V+E)
+print(love)
+score = int(true + love)
+if score < 10 or score >90:
+    print(f" you score is {score},You go together like coke and Mentos :p")
+elif score < 50 and score > 40:
+    print(f"you score is {score},You are fine together :)")
+else:
+    print(f"you score is {score} ")
